@@ -1,10 +1,17 @@
-[user]
-	name = {{ .name }}
-	email = {{ .email }}
 [core]
 	autocrlf = input
 	editor = code --wait -n
-	pager = less -XRF
+	pager = delta
+	excludesfile = ~/.gitignore_global
+[interactive]
+	diffFilter = delta --color-only
+[delta]
+	navigate = true
+	side-by-side = true
+[merge]
+	conflictstyle = diff3
+[diff]
+	colorMoved = default
 [pull]
 	ff = only
 [push]
@@ -17,7 +24,7 @@
 [rebase]
 	autoSquash = true
 [alias]
-  branch-name = "!git rev-parse --abbrev-ref HEAD"
+	branch-name = "!git rev-parse --abbrev-ref HEAD"
 	s = status
 	f = fetch
 	a = add
