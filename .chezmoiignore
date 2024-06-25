@@ -1,4 +1,9 @@
 {{ if ne .chezmoi.os "windows" }}
 AppData
+AppData/local
+AppData/local/nvim
+AppData/local/nvim.init.lua
 Documents
+Documents/WindowsPowerShell
+Documents/WindowsPowerShell/*
 {{ end }}
