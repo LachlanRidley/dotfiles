@@ -9,7 +9,9 @@ set -eufo pipefail
      "firefox"
      "1password"
      "iterm2"
-     "visual-studio-code" -}}
+     "visual-studio-code"
+     "nightfall"
+     "alt-tab" -}}
 
 brew bundle --no-lock --file=/dev/stdin <<EOF
 {{ range ($brews | sortAlpha | uniq) -}}
