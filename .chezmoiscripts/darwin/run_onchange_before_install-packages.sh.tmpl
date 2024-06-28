@@ -1,0 +1,21 @@
+#!/bin/bash
+
+set -eufo pipefail
+
+{{ $brews := list
+     "git"
+     "fish" -}}
+{{ $casks := list
+     "firefox"
+     "1password"
+     "iterm2"
+     "visual-studio-code" -}}
+
+brew bundle --no-lock --file=/dev/stdin <<EOF
+{{ range ($brews | sortAlpha | uniq) -}}
+brew "{{ . }}"
+{{ end -}}
+{{ range ($casks | sortAlpha | uniq) -}}
+cask "{{ . }}"
+{{ end -}}
+EOF
