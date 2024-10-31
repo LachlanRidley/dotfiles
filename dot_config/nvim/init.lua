@@ -62,8 +62,18 @@ require("conform").setup({
 })
 
 -- colour scheme
-vim.cmd('colorscheme base16-monokai')
+vim.cmd("colorscheme base16-monokai")
 
 -- key bindings
 vim.keymap.set("n", "<c-[>", ":bp<CR>", {})
 vim.keymap.set("n", "<c-]>", ":bn<CR>", {})
+
+-- tabs
+vim.o.expandtab = true
+vim.bo.expandtab = true
+vim.o.softtabstop = 4
+vim.o.tabstop = 4
+
+-- line numbers
+vim.opt.number = true
+vim.opt.relativenumber = true

@@ -9,8 +9,8 @@ set PATH $PATH /Users/lachlan/.local/bin
 set --global --export PATH $HOMEBREW_PREFIX/opt/grep/libexec/gnubin $PATH
 
 zoxide init fish | source
-set -gx VOLTA_HOME "$HOME/.volta"
-set -gx PATH "$VOLTA_HOME/bin" $PATH
 
 abbr --add lg lazygit
 abbr --add czm chezmoi
+set -gx VOLTA_HOME "$HOME/.volta"
+set -gx PATH "$VOLTA_HOME/bin" $PATH
