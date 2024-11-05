@@ -51,7 +51,7 @@
 
 	peek = tree -10
 
-    wip = !git add --all && git commit -m "wip"
+    wip = !git add --all && git commit -m \"[WIP] `date`\"
 
 	save = !git add --all && git commit -m \"`date`\"
 	sm = !git add --all && git commit -m
