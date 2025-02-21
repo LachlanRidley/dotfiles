@@ -1,0 +1,62 @@
+[init]
+    defaultBranch = main
+[core]
+	autocrlf = input
+	pager = delta
+	excludesfile = ~/.gitignore_global
+[interactive]
+	diffFilter = delta --color-only
+[delta]
+	navigate = true
+	side-by-side = true
+[merge]
+	conflictstyle = diff3
+[diff]
+	colorMoved = default
+[pull]
+	ff = only
+[push]
+	autoSetupRemote = true
+[status]
+	showUntrackedFiles = all
+	short = true
+[fetch]
+	prune = true
+[rebase]
+	autoSquash = true
+[alias]
+	s = status
+	f = fetch
+	a = add
+	aa = add --all
+	ci = commit
+	br = branch
+
+	co = checkout
+	sw = switch
+	rs = restore
+
+	rb = rebase
+	df = diff
+	cp = cherry-pick
+
+	unstage = reset HEAD
+	undo-commit = reset --mixed HEAD^
+
+	ec = config --global -e
+	l = "log --abbrev-commit --decorate --date=short --pretty=format:'%C(yellow)%h %Cblue%>(12)%ad %Cgreen%<(7)%aN%C(auto)%d %Creset%s'"
+	tree = "log --graph --abbrev-commit --decorate --date=short --pretty=format:'%C(yellow)%h %Cblue%>(12)%ad %Cgreen%<(7)%aN%C(auto)%d %Creset%s'"
+	tr = tree
+
+	peek = tree -10
+
+    wip = !git add --all && git commit -m \"[WIP] `date`\"
+
+	save = !git add --all && git commit -m \"`date`\"
+	sm = !git add --all && git commit -m
+
+  amend = !git add --all && git commit --amend --no-edit
+
+	dfs = diff --staged
+[include]
+	path = .gitconfig.local

@@ -1,0 +1,5 @@
+command = /usr/bin/fish --login --interactive
+font-family = Fira Code
+font-feature = calt
+font-size = 10
+theme = "Monokai Classic"
