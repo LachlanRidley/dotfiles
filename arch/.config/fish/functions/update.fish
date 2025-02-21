@@ -1,11 +1,11 @@
 function update -d "Ensures that packages/tools are installed and updates them"
-    pacman -S eza
-    pacman -S firefox
-    pacman -S git-delta
-    pacman -S okular
-    pacman -S neofetch
-    pacman -S fd-find
-    pacman -S bat
+    sudo pacman -S --noconfirm eza
+    sudo pacman -S --noconfirm firefox
+    sudo pacman -S --noconfirm git-delta
+    sudo pacman -S --noconfirm okular
+    sudo pacman -S --noconfirm neofetch
+    sudo pacman -S --noconfirm fd
+    sudo pacman -S --noconfirm bat
     # apt_install 1password-cli
 
     # echo \nUpdating flatpak
