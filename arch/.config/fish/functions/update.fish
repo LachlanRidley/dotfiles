@@ -37,5 +37,6 @@ function update -d "Ensures that packages/tools are installed and updates them"
         echo
         echo Installing mise 🍽️
         curl https://mise.run | sh
+        echo '~/.local/bin/mise activate fish | source' >> ~/.config/fish/config.fish
     end
 end
