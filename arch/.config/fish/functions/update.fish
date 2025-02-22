@@ -6,6 +6,7 @@ function update -d "Ensures that packages/tools are installed and updates them"
     sudo pacman -S --noconfirm neofetch
     sudo pacman -S --noconfirm fd
     sudo pacman -S --noconfirm bat
+    sudo pacman -S --noconfirm zoxide
     sudo pacman -S --noconfirm ghostty
     # apt_install 1password-cli
 
