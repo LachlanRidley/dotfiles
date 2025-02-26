@@ -10,20 +10,34 @@
 	navigate = true
 	side-by-side = true
 [merge]
-	conflictstyle = diff3
+	conflictstyle = zdiff3
 [diff]
-	colorMoved = default
+	colorMoved = plain
+    algorithm = histogram
+    rename = true
 [pull]
-	ff = only
+    rebase = true
 [push]
 	autoSetupRemote = true
+    followTags = true
 [status]
 	showUntrackedFiles = all
 	short = true
 [fetch]
 	prune = true
+	pruneTags = true
+	all = true
 [rebase]
 	autoSquash = true
+    autoStash = true
+    updateRefs = true
+[commit]
+    verbose = true
+[rerere]
+    enabled = true
+    autoupdate = true
+[help]
+    autocorrect = prompt
 [alias]
 	s = status
 	f = fetch
