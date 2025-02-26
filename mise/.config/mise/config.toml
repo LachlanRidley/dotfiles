@@ -1,0 +1,7 @@
+[settings]
+experimental = true
+
+[tools]
+node = "latest"
+"npm:concurrently" = "latest"
+uv = "latest"
