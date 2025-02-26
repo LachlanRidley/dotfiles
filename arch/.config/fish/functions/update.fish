@@ -9,6 +9,8 @@ function update -d "Ensures that packages/tools are installed and updates them"
     sudo pacman -S --noconfirm zoxide
     sudo pacman -S --noconfirm ghostty
     sudo pacman -S --noconfirm steam
+
+    eos-update --aur
     # apt_install 1password-cli
 
     # echo \nUpdating flatpak
