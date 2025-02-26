@@ -8,6 +8,7 @@ function update -d "Ensures that packages/tools are installed and updates them"
     sudo pacman -S --noconfirm bat
     sudo pacman -S --noconfirm zoxide
     sudo pacman -S --noconfirm ghostty
+    sudo pacman -S --noconfirm steam
     # apt_install 1password-cli
 
     # echo \nUpdating flatpak
