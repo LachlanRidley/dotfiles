@@ -41,5 +41,8 @@
   "workbench.layoutControl.type": "toggles",
   "editor.minimap.autohide": true,
   "breadcrumbs.enabled": false,
-  "editor.guides.indentation": false
+  "editor.guides.indentation": false,
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
 }
