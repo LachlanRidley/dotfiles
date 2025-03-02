@@ -2,13 +2,21 @@ function update -d "Ensures that packages/tools are installed and updates them"
     sudo apt update
 
     apt_install eza
-    apt_install firefox
+    apt_install librewolf
     apt_install git-delta
     apt_install okular
-    apt_install neofetch
     apt_install fd-find
     apt_install bat
     apt_install 1password-cli
+    apt_install code
+    apt_install zoxide
+    apt_install stow
+    apt_install steam
+    apt_install rclone
+    apt_install neovim
+    apt_install ghostty
+    apt_install 1password
+
 
     echo \nSetting up alias for bat
     mkdir -p ~/.local/bin
