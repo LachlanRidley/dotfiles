@@ -16,8 +16,8 @@
   "window.autoDetectColorScheme": true,
   "window.customTitleBarVisibility": "auto",
   "window.titleBarStyle": "custom",
+  "workbench.layoutControl.enabled": false,
   "editor.cursorBlinking": "solid",
-
   // python
   "[python]": {
     "editor.defaultFormatter": "charliermarsh.ruff"
