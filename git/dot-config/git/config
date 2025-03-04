@@ -3,7 +3,6 @@
 [core]
 	autocrlf = input
 	pager = delta
-	excludesfile = ~/.gitignore_global
 [interactive]
 	diffFilter = delta --color-only
 [delta]
@@ -73,4 +72,4 @@
 
 	dfs = diff --staged
 [include]
-	path = .gitconfig.local
+	path = ~/.gitconfig.local
