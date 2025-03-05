@@ -27,7 +27,7 @@
   "python.analysis.diagnosticMode": "workspace",
   "mypy.dmypyExecutable": "dmypy",
   "[jinja-html]": {
-    "editor.formatOnSave": false
+    "editor.formatOnSave": false,
   },
   "[typescriptreact]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
@@ -44,5 +44,5 @@
   "editor.guides.indentation": false,
   "[typescript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
-  }
+  },
 }
