@@ -7,15 +7,12 @@
   "editor.wordWrap": "on",
   "editor.formatOnSave": true,
   "editor.rulers": [120],
-  "workbench.activityBar.location": "top",
   "git.confirmSync": false,
   "git.enableSmartCommit": true,
   "editor.fontFamily": "'Fira Code', 'Hack Nerd Font Mono', Menlo, Monaco, 'Courier New', monospace",
   "editor.fontSize": 12,
   "editor.fontLigatures": true,
   "window.autoDetectColorScheme": true,
-  "window.customTitleBarVisibility": "auto",
-  "window.titleBarStyle": "custom",
   "workbench.layoutControl.enabled": false,
   "editor.cursorBlinking": "solid",
   // python
@@ -27,7 +24,7 @@
   "python.analysis.diagnosticMode": "workspace",
   "mypy.dmypyExecutable": "dmypy",
   "[jinja-html]": {
-    "editor.formatOnSave": false,
+    "editor.formatOnSave": false
   },
   "[typescriptreact]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
@@ -38,11 +35,11 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "outline.collapseItems": "alwaysCollapse",
-  "workbench.layoutControl.type": "toggles",
   "editor.minimap.autohide": true,
   "breadcrumbs.enabled": false,
   "editor.guides.indentation": false,
   "[typescript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
+  "workbench.activityBar.location": "top"
 }
