@@ -32,9 +32,7 @@ require("nvim-tree").setup()
 require("gitsigns").setup()
 
 -- lua language server
-require("lspconfig").pyright.setup({})
-require("lspconfig").ruff_lsp.setup({})
-require("lspconfig").jedi_language_server.setup({})
+require("lspconfig").ruff.setup({})
 require("lspconfig").rust_analyzer.setup({
 	settings = {
 		["rust-analyzer"] = {
