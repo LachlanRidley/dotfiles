@@ -18,6 +18,7 @@
   "[python]": {
     "editor.defaultFormatter": "charliermarsh.ruff"
   },
+  "python.testing.unittestEnabled": true,
   "[jinja-html]": {
     "editor.formatOnSave": false
   },
