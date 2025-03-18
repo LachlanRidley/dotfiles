@@ -32,7 +32,7 @@ function update -d "Ensures that packages/tools are installed and updates them"
     flatpak update -y
 
     echo \nUpdating snaps 😢
-    snap refresh
+    sudo snap refresh
 
     if type -q uv
         echo
@@ -60,4 +60,8 @@ function update -d "Ensures that packages/tools are installed and updates them"
         echo Installing mise 🍽️
         curl https://mise.run | sh
     end
+
+    # set environment variables
+    set -Ux ANDROID_USER_HOME "$XDG_DATA_HOME/android"
+    mv ~/.android $ANDROID_USER_HOME
 end
