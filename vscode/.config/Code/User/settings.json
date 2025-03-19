@@ -4,8 +4,9 @@
   "workbench.preferredLightColorTheme": "Monokai Pro Light",
   "workbench.startupEditor": "none",
   "editor.lineNumbers": "relative",
-  "editor.wordWrap": "on",
+  "editor.wordWrap": "wordWrapColumn",
   "editor.formatOnSave": true,
+  "editor.wordWrapColumn": 120,
   "editor.rulers": [120],
   "git.confirmSync": false,
   "git.enableSmartCommit": true,
@@ -44,5 +45,7 @@
   },
   "[css]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
-  }
+  },
+  "editor.minimap.renderCharacters": false,
+  "workbench.editor.showTabs": "single"
 }
