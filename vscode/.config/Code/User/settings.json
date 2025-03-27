@@ -11,7 +11,7 @@
   "git.confirmSync": false,
   "git.enableSmartCommit": true,
   "editor.fontFamily": "'Fira Code', 'Hack Nerd Font Mono', Menlo, Monaco, 'Courier New', monospace",
-  "editor.fontSize": 12,
+  "editor.fontSize": 10,
   "editor.fontLigatures": true,
   "window.autoDetectColorScheme": true,
   "workbench.layoutControl.enabled": false,
@@ -47,5 +47,7 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "editor.minimap.renderCharacters": false,
-  "workbench.editor.showTabs": "single"
+  "workbench.editor.showTabs": "single",
+  "workbench.editor.limit.enabled": true,
+  "workbench.editor.limit.excludeDirty": true
 }
