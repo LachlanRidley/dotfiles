@@ -4,6 +4,7 @@ tap "homebrew/bundle"
 tap "homebrew/services"
 tap "jesseduffield/lazygit"
 tap "koekeishiya/formulae"
+brew "ag"
 brew "aws-vault"
 brew "bat"
 brew "python@3.13"
@@ -73,7 +74,6 @@ cask "whisky"
 mas "Amphetamine", id: 937984704
 mas "Flow", id: 1423210932
 mas "Reeder", id: 6475002485
-vscode "alefragnani.bookmarks"
 vscode "bierner.docs-view"
 vscode "charliermarsh.ruff"
 vscode "clinyong.vscode-css-modules"
