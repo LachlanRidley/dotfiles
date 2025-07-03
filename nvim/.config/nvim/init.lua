@@ -1009,6 +1009,18 @@ require("lazy").setup({
 		opts = {
 			-- fill any relevant options here
 		},
+		config = function()
+			vim.keymap.set("n", "<leader>b", ":Neotree toggle<CR>", { desc = "Toggle Neotree [b]" })
+			require("neo-tree").setup({
+				filesystem = {
+					filtered_items = {
+						visible = true,
+						hide_dotfiles = false,
+						hide_gitignored = true,
+					},
+				},
+			})
+		end,
 	},
 	{
 		"nvim-neotest/neotest",
