@@ -2,4 +2,5 @@ command = /opt/homebrew/bin/fish --login --interactive
 font-family = Fira Code
 font-feature = calt
 font-size = 12
+font-style = SemiBold
 theme = light:"Monokai Pro Light",dark:"Monokai Pro"
