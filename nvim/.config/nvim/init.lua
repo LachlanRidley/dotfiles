@@ -1011,6 +1011,7 @@ require("lazy").setup({
 		},
 		config = function()
 			vim.keymap.set("n", "<leader>b", ":Neotree toggle<CR>", { desc = "Toggle Neotree [b]" })
+			vim.keymap.set("n", "<leader>r", ":Neotree reveal<CR>", { desc = "[R]eveal file in Neotree" })
 			require("neo-tree").setup({
 				filesystem = {
 					filtered_items = {
