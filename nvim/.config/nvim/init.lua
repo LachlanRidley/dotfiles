@@ -1086,5 +1086,15 @@ require("lazy").setup({
 require("neotest").setup({
 	adapters = { require("neotest-python") },
 })
+
+-- recognise jinja files
+vim.filetype.add({
+	extension = {
+		jinja = "jinja",
+		jinja2 = "jinja",
+		j2 = "jinja",
+	},
+})
+
 -- The line beneath this is called `modeline`. See `:help modeline`
 -- vim: ts=2 sts=2 sw=2 et
