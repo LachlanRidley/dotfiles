@@ -4,4 +4,5 @@ idiomatic_version_file_enable_tools = ["node"]
 
 [tools]
 node = "latest"
+usage = "latest"
 uv = "latest"
