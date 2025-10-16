@@ -11,9 +11,7 @@
       "clock",
     ],
     "modules-right": [
-    "gamemode",
     "pulseaudio",
-    "pulseaudio/slider",
     "tray",
     "network",
     "battery",
