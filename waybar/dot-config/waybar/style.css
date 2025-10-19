@@ -182,10 +182,6 @@ label:focus {
     background-color: #90b1b1;
 }
 
-#network {
-    background-color: @blue;
-}
-
 #network.disconnected {
     background-color: #f53c3c;
 }
@@ -224,10 +220,6 @@ label:focus {
 
 #temperature.critical {
     background-color: #eb4d4b;
-}
-
-#tray {
-    background-color: @blue;
 }
 
 #tray > .passive {
