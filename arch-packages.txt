@@ -1,3 +1,6 @@
 bat
+fish
 hypridle
-hypelock
+hyprlock
+mission-center
+stow

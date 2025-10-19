@@ -2,7 +2,7 @@
 
 ## Getting started
 
-`curl -LsSf https://raw.githubusercontent.com/LachlanRidley/dotfiles/refs/heads/main/bootstrap-arch.sh | sh`
+`curl -LsSf https://raw.githubusercontent.com/LachlanRidley/dotfiles/refs/heads/main/install-arch.sh | sh`
 
 ## vscode on macOS
 
