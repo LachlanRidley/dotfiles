@@ -12,5 +12,5 @@ Run:
 
 ```sh
 stow vscode
-./link-vscode-darwin-to-config.sh
+./scripts/link-vscode-darwin-to-config.sh
 ```
