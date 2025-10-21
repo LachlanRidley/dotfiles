@@ -2,5 +2,6 @@ bat
 fish
 hypridle
 hyprlock
+inotify-tools
 mission-center
 stow

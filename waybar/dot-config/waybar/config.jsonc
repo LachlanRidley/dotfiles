@@ -35,7 +35,7 @@
   },
   "clock": {
     "tooltip-format": "<big>{:%d %B %Y}</big>\n<tt><small>{calendar}</small></tt>",
-    "format": "{:%A, %R}",
+    "format": "{:%d %b %a %R}",
   },
   "cpu": {
     "format": "  {usage}%",
@@ -127,6 +127,6 @@
   },
   "custom/power": {
     "format": "⏻",
-    "on-click": "~/bin/power-menu.sh",
+    "on-click": "~/Dotfiles/scripts/power-menu.sh",
   },
 }
