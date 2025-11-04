@@ -1,0 +1,9 @@
+#!/bin/sh
+
+# TODO only supports macOS right now
+
+if [ ! -d ~/Screenshots ]; then
+    echo 'Setting up screenshots dir at "~/Screenshots"'
+    mkdir ~/Screenshots
+    defaults write com.apple.screencapture location "~/Screenshots"
+fi
