@@ -4,4 +4,6 @@ hypridle
 hyprlock
 inotify-tools
 mission-center
+noctalia-shell
 stow
+wl-clipboard
