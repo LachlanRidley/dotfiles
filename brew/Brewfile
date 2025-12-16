@@ -72,32 +72,8 @@ cask "visual-studio-code"
 cask "vlc"
 cask "zed"
 mas "Amphetamine", id: 937984704
+mas "Broadcasts", id: 1469995354
 mas "Flow", id: 1423210932
 mas "Pages", id: 409201541
 mas "Reeder", id: 6475002485
 mas "WireGuard", id: 1451685025
-vscode "bierner.docs-view"
-vscode "charliermarsh.ruff"
-vscode "clinyong.vscode-css-modules"
-vscode "davidanson.vscode-markdownlint"
-vscode "dbaeumer.vscode-eslint"
-vscode "editorconfig.editorconfig"
-vscode "esbenp.prettier-vscode"
-vscode "hverlin.mise-vscode"
-vscode "matangover.mypy"
-vscode "mechatroner.rainbow-csv"
-vscode "mk12.better-git-line-blame"
-vscode "monokai.theme-monokai-pro-vscode"
-vscode "mrmlnc.vscode-scss"
-vscode "ms-python.debugpy"
-vscode "ms-python.python"
-vscode "ms-python.vscode-pylance"
-vscode "ms-vscode-remote.remote-containers"
-vscode "orta.vscode-jest"
-vscode "rust-lang.rust-analyzer"
-vscode "samuelcolvin.jinjahtml"
-vscode "stylelint.vscode-stylelint"
-vscode "sumneko.lua"
-vscode "tamasfe.even-better-toml"
-vscode "usernamehw.errorlens"
-vscode "vscodevim.vim"

@@ -32,7 +32,7 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "outline.collapseItems": "alwaysCollapse",
-  "editor.minimap.autohide": true,
+  "editor.minimap.autohide": "mouseover",
   "breadcrumbs.enabled": false,
   "editor.guides.indentation": false,
   "[typescript]": {
@@ -50,5 +50,6 @@
   "workbench.editor.showTabs": "single",
   "workbench.editor.limit.enabled": true,
   "workbench.editor.limit.excludeDirty": true,
-  "testing.automaticallyOpenTestResults": "neverOpen"
+  "testing.automaticallyOpenTestResults": "neverOpen",
+  "mise.binPath": "/opt/homebrew/bin/mise"
 }
