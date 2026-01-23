@@ -8,20 +8,25 @@
 // command palette
 {
   "title_bar": {
-    "show_sign_in": false
+    "show_sign_in": false,
   },
   "disable_ai": true,
   "terminal": {
     "shell": {
       "with_arguments": {
         "program": "/opt/homebrew/bin/fish",
-        "args": ["--login", "--interactive"]
-      }
-    }
+        "args": ["--login", "--interactive"],
+      },
+    },
+  },
+  "languages": {
+    "Python": {
+      "language_servers": ["ty", "ruff", "!basedpyright"],
+    },
   },
   "vim_mode": true,
   "buffer_line_height": "comfortable",
   "relative_line_numbers": "enabled",
   "ui_font_size": 16,
-  "buffer_font_size": 12.0
+  "buffer_font_size": 12.0,
 }

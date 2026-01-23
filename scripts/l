@@ -1,0 +1,7 @@
+#!/bin/sh
+
+if hash eza 2>/dev/null; then
+    command eza -l --icons=always --smart-group --header $argv
+else
+    command ls $argv
+fi
