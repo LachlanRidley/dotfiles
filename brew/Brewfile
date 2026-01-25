@@ -8,6 +8,7 @@ brew "ffmpeg"
 brew "fish"
 brew "fzf"
 brew "git"
+brew "git-branchless"
 brew "git-delta"
 brew "grep"
 brew "helix"
@@ -43,6 +44,7 @@ cask "alt-tab"
 cask "figma"
 cask "firefox"
 cask "font-fira-code"
+cask "font-inter"
 cask "ghostty"
 cask "gimp"
 cask "google-chrome"
@@ -68,10 +70,4 @@ mas "1Password for Safari", id: 1569813296
 mas "Amphetamine", id: 937984704
 mas "Broadcasts", id: 1469995354
 mas "Flow", id: 1423210932
-mas "GarageBand", id: 682658836
-mas "iMovie", id: 408981434
-mas "Keynote", id: 409183694
-mas "Numbers", id: 409203825
-mas "Pages", id: 409201541
-mas "Reeder", id: 6475002485
 mas "uBlock Origin Lite", id: 6745342698

@@ -1,0 +1,6 @@
+#!/bin/sh
+
+brew update
+brew bundle cleanup --force
+brew upgrade
+brew bundle install
