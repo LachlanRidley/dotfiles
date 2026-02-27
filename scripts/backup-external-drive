@@ -1,0 +1,7 @@
+#!/bin/sh
+
+# runs restic on the external HD
+
+cd /media/backup2
+restic backup -e lost+found .
+

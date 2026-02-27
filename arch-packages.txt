@@ -6,4 +6,6 @@ inotify-tools
 mission-center
 noctalia-shell
 stow
+sushi
 wl-clipboard
+zed
