@@ -60,7 +60,6 @@ cask "postman"
 cask "raycast"
 cask "rider"
 cask "scroll-reverser"
-cask "signal"
 cask "smoothcsv"
 cask "steam"
 cask "sublime-text"
@@ -71,5 +70,9 @@ cask "zed"
 mas "1Password for Safari", id: 1569813296
 mas "Amphetamine", id: 937984704
 mas "Broadcasts", id: 1469995354
-mas "Flow", id: 1423210932
 mas "uBlock Origin Lite", id: 6745342698
+brew "starship"
+brew "php"
+brew "syncthing"
+brew "todoist-cli"
+brew "mycli"
