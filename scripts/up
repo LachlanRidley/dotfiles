@@ -3,4 +3,4 @@
 brew update
 brew bundle cleanup --force
 brew upgrade
-brew bundle install
+brew bundle install -q
