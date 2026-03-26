@@ -1,0 +1,7 @@
+#!/bin/sh
+
+if [ -z ${EDITOR+x} ]; then
+    echo "$EDITOR is not set!"
+else
+    exec $EDITOR "$@"
+fi
