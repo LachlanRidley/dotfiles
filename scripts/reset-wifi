@@ -1,4 +1,0 @@
-#!/bin/sh
-
-sudo NetworkManager
-nmcli connection up "moe-5ghz"
