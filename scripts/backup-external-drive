@@ -1,7 +1,10 @@
 #!/bin/sh
 
 # runs restic on the external HD
+export AWS_ACCESS_KEY_ID=$(op item get lrr-restic-backup --fields label=AWS_ACCESS_KEY_ID)
+export AWS_SECRET_ACCESS_KEY=$(op item get lrr-restic-backup --fields label=AWS_SECRET_ACCESS_KEY --reveal)
+export RESTIC_REPOSITORY=$(op item get lrr-restic-backup --fields label=RESTIC_REPOSITORY)
+export RESTIC_PASSWORD_COMMAND="op item get lrr-restic-backup --fields label=password --reveal"
 
-cd /media/backup2
+cd /media/backup
 restic backup -e lost+found .
-
