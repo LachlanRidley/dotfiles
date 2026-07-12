@@ -1,0 +1,8 @@
+#!/bin/sh
+
+if [ "$1" == "-d" ]; then
+	echo "Performing a dry-run"
+	rclone sync --dry-run --size-only ~/Music "big beats SFTP:music"
+else
+	rclone sync --size-only ~/Music "big beats SFTP:music"
+fi
