@@ -1,6 +1,10 @@
 #!/bin/sh
 
+# fetch newest homebrew and all formulae
 brew update
+
+# remove anything installed that's not in the brewfile
 brew bundle cleanup --force
-brew upgrade
-brew bundle install -q
+
+# upgrade everything to the latest versions
+brew bundle update
