@@ -7,4 +7,4 @@ brew update
 brew bundle cleanup --force
 
 # upgrade everything to the latest versions
-brew bundle update
+brew upgrade
